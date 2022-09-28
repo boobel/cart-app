@@ -1,5 +1,6 @@
 import "../styles/Home.css";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import car from "../images/car_main.jpeg";
 import { Link } from "react-router-dom";
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    align-self: center;
+    margin: 2%;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.location {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <nav className="navbar">
-      <span className="storeName">Carrum</span>
+      <span className="storeName">Carrum.</span>
       <ul className="links">
         <Link style={Navstyle} to="/">
           <li>Home</li>
@@ -16,7 +16,7 @@ const Nav = () => {
           <li>Shop</li>
         </Link>
         <Link style={Navstyle} to="/about">
-          <li>About Us</li>
+          <li>Contact</li>
         </Link>
         <Link style={Navstyle} to="/cart">
           <li>Cart</li>
