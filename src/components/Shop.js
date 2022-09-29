@@ -15,6 +15,8 @@ const Items = [
     img: car1,
     HP: "238",
     price: "$25,000",
+    priceInt: 25000,
+    amount: 1,
   },
   {
     brand: "Mercedes Benz G Class",
@@ -22,6 +24,8 @@ const Items = [
     img: car2,
     HP: "172",
     price: "$324,000",
+    priceInt: 324000,
+    amount: 1,
   },
   {
     brand: "MacLaren P1",
@@ -29,6 +33,8 @@ const Items = [
     img: car3,
     HP: "325",
     price: "$1,200,000",
+    priceInt: 1200000,
+    amount: 1,
   },
   {
     brand: "Lamboginhi Huracan",
@@ -36,6 +42,8 @@ const Items = [
     img: car4,
     HP: "276",
     price: "$760,000",
+    priceInt: 760000,
+    amount: 1,
   },
   {
     brand: "Porsche 911",
@@ -43,6 +51,8 @@ const Items = [
     img: car5,
     HP: "238",
     price: "$250,000",
+    priceInt: 250000,
+    amount: 1,
   },
   {
     brand: "Aston Martin DB9",
@@ -50,10 +60,12 @@ const Items = [
     img: car6,
     HP: "276",
     price: "$545,000",
+    priceInt: 545000,
+    amount: 1,
   },
 ];
 
-const Shop = () => {
+const Shop = (props) => {
   return (
     <div>
       <Nav />
@@ -61,11 +73,13 @@ const Shop = () => {
         {Items.map((item) => {
           return (
             <Item
+              item={item}
               brand={item.brand}
               year={item.year}
               HP={item.HP}
               price={item.price}
               img={item.img}
+              handleCart={props.handleCart}
             />
           );
         })}

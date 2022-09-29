@@ -8,7 +8,9 @@ const Item = (props) => {
       <span>Horse Power: {props.HP}</span>
       <span>Year: {props.year}</span>
       <span>{props.price}</span>
-      <button>Add To Cart</button>
+      <button onClick={props.handleCart.bind(this, props.item)}>
+        Add To Cart
+      </button>
     </div>
   );
 };

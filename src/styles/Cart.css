@@ -1,0 +1,41 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin: 5%;
+}
+
+#cartItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    min-width: 100%;
+    border-bottom: solid 1px black;
+}
+
+#cartItem >* {
+    white-space: nowrap;
+}
+
+#itemAmount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 10px;
+}
+
+.amountBtn {
+    border: none;
+    margin: 0;
+}
+
+#itemTotal {
+    align-self: flex-end;
+}

@@ -45,6 +45,7 @@ img {
 li {
     transition-duration: 0.3s;
     font-weight: bold;
+    padding: 5%;
 }
 
 li:hover {
