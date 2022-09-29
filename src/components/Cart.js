@@ -1,8 +1,14 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
 import "../styles/Cart.css";
+import { useEffect, useReducer } from "react";
 
 const CartContent = (props) => {
+  const [, forceUpdate] = useReducer((x) => x + 1, 0);
+
+  function handleClick() {
+    forceUpdate();
+  }
   return (
     <div>
       <Nav />
@@ -13,11 +19,27 @@ const CartContent = (props) => {
               <img src={item.img} id="carImg" />
               <h3>{item.brand}</h3>
               <div id="itemAmount">
-                <button className="amountBtn">-</button>
+                <button
+                  className="amountBtn"
+                  onClick={() => {
+                    if (item.amount > 0) item.amount--;
+                    handleClick();
+                  }}
+                >
+                  -
+                </button>
                 <span>{item.amount}</span>
-                <button className="amountBtn">+</button>
+                <button
+                  className="amountBtn"
+                  onClick={() => {
+                    item.amount++;
+                    handleClick();
+                  }}
+                >
+                  +
+                </button>
               </div>
-              <span>
+              <span id="itemPrice">
                 $
                 {String(item.priceInt * item.amount).replace(
                   /\B(?=(\d{3})+(?!\d))/g,

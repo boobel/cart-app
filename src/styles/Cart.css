@@ -39,3 +39,7 @@
 #itemTotal {
     align-self: flex-end;
 }
+
+#itemPrice {
+    min-width: 120px;
+}
