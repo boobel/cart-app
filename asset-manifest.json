@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cart-app/static/css/main.aed7c980.css",
+    "main.js": "/cart-app/static/js/main.3ef50dd3.js",
+    "static/media/map.png": "/cart-app/static/media/map.327f40a848253619e56c.png",
+    "static/media/car_shop_2.webp": "/cart-app/static/media/car_shop_2.ec5433f49085da9a7779.webp",
+    "static/media/car_shop_6.jpeg": "/cart-app/static/media/car_shop_6.47808a756523e2d10e5b.jpeg",
+    "static/media/car_shop_1.jpeg": "/cart-app/static/media/car_shop_1.51e7c0ef502ac2259d4c.jpeg",
+    "static/media/car_shop_3.jpeg": "/cart-app/static/media/car_shop_3.b754fe73b571c2739f70.jpeg",
+    "static/media/car_shop_5.jpeg": "/cart-app/static/media/car_shop_5.9ec5fdd16a662a376a34.jpeg",
+    "static/media/car_shop_4.jpeg": "/cart-app/static/media/car_shop_4.efebbb1ccc858e706303.jpeg",
+    "static/media/car_main.jpeg": "/cart-app/static/media/car_main.38e30b0449c1efcecb39.jpeg",
+    "index.html": "/cart-app/index.html",
+    "main.aed7c980.css.map": "/cart-app/static/css/main.aed7c980.css.map",
+    "main.3ef50dd3.js.map": "/cart-app/static/js/main.3ef50dd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed7c980.css",
+    "static/js/main.3ef50dd3.js"
+  ]
+}
