@@ -1,5 +1,7 @@
 import Item from "./Item";
 import Nav from "./Nav";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import car1 from "../images/car_shop_1.jpeg";
 import car2 from "../images/car_shop_2.webp";
 import car3 from "../images/car_shop_3.jpeg";
@@ -66,6 +68,8 @@ const Items = [
 ];
 
 const Shop = (props) => {
+  const notify = () => toast("Added to cart!");
+
   return (
     <div>
       <Nav />

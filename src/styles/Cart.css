@@ -29,17 +29,55 @@
     padding-left: 5px;
     padding-right: 5px;
     gap: 10px;
+    width: 40px;
 }
 
 .amountBtn {
     border: none;
     margin: 0;
+    font-size: large;
+}
+
+.cancelBtn {
+    border: none;
+    margin: 0;
+    font-size: large;
+    padding: 1.5%;
 }
 
 #itemTotal {
     align-self: flex-end;
+
 }
 
 #itemPrice {
-    min-width: 120px;
+    width: 120px;
+}
+
+#itemBrand {
+    width: 200px;
+}
+
+.cartButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.cartButton {
+    width: 240px;
+    height: 60px;
+}
+
+.cartEmpty{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartEmpty > * {
+    font-size: xx-large;
 }
