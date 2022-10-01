@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cart-app/static/css/main.aed7c980.css",
-    "main.js": "/cart-app/static/js/main.3ef50dd3.js",
+    "main.js": "/cart-app/static/js/main.2f17bded.js",
     "static/media/map.png": "/cart-app/static/media/map.327f40a848253619e56c.png",
     "static/media/car_shop_2.webp": "/cart-app/static/media/car_shop_2.ec5433f49085da9a7779.webp",
     "static/media/car_shop_6.jpeg": "/cart-app/static/media/car_shop_6.47808a756523e2d10e5b.jpeg",
@@ -12,10 +12,10 @@
     "static/media/car_main.jpeg": "/cart-app/static/media/car_main.38e30b0449c1efcecb39.jpeg",
     "index.html": "/cart-app/index.html",
     "main.aed7c980.css.map": "/cart-app/static/css/main.aed7c980.css.map",
-    "main.3ef50dd3.js.map": "/cart-app/static/js/main.3ef50dd3.js.map"
+    "main.2f17bded.js.map": "/cart-app/static/js/main.2f17bded.js.map"
   },
   "entrypoints": [
     "static/css/main.aed7c980.css",
-    "static/js/main.3ef50dd3.js"
+    "static/js/main.2f17bded.js"
   ]
 }
